@@ -2,21 +2,35 @@ strong {
   font-weight: 600;
 }
 
-.md-typeset h1, .md-typeset h2 {
+.md-typeset h1 {
   font-weight: 600;
   color: #000;
+  margin-bottom: 24px;
+}
+
+.md-typeset h2 {
+  border-bottom: 1px solid #d8dee4;
+  font-size: 20px;
+  font-weight: 600;
+  color: #000;
+  padding-bottom: .3em;
 }
 
 .md-typeset p {
-  font-size: 18px;
-  font-weight: 300;
-  line-height: 32px;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 16px 0;
 }
 
 .md-typeset li {
-  font-size: 18px;
-  font-weight: 300;
-  line-height: 32px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.md-typeset img {
+  border: 2px solid #d0d7de;
+  border-radius: 5px;
+  vertical-align: top;
 }
 
 .md-nav__title {
@@ -27,7 +41,6 @@ strong {
 
 .md-nav__link {
   font-size: 16px;
-  font-weight: 300;
   margin-top: 15px;
 }
 
